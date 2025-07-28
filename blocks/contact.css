@@ -1,0 +1,10 @@
+.contact {
+  text-align: center;
+  padding: 1rem;
+  background: #0a2f29;
+  color: white;
+}
+.contact a {
+  color: #00d4ff;
+  text-decoration: none;
+}

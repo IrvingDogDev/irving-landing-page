@@ -1,99 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Irving Sanchez – Front-End Developer</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      background: #f7f9fc;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background: #0a2540;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.2rem;
-    }
-    section {
-      padding: 2rem 1rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    .skills, .projects {
-      margin-bottom: 2rem;
-    }
-    .project-card {
-      background: white;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      padding: 1rem;
-      margin-bottom: 1rem;
-    }
-    .contact {
-      text-align: center;
-      padding: 1rem;
-      background: #0a2540;
-      color: white;
-    }
-    .contact a {
-      color: #00d4ff;
-      text-decoration: none;
-    }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Irving Sanchez – Front-End Developer</title>
+    <meta name="description" content="Irving Landing Page" />
+    <meta name="author" content="Irving Sanchez" />
+    <meta name="keywords" content="html, css, adaptive, JavaScript" />
+    <link rel="stylesheet" href=".//pages/index.css">
+  </head>
+  <body>
+    <div class="page">
+    <header class="header">
+      <h1 class="header__name">Irving Sanchez</h1>
+      <p class="header__description">Front-End Developer | HTML, CSS, JavaScript (in progress)</p>
+    </header>
 
-  <header>
-    <h1>Irving Sanchez</h1>
-    <p>Front-End Developer | HTML, CSS, JavaScript (in progress)</p>
-  </header>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate front-end developer currently enrolled in the TripleTen
+        Bootcamp. I build responsive websites with clean, maintainable code. I'm
+        actively looking for freelance work and opportunities to grow as a
+        developer.
+      </p>
+    </section>
+    <div class="content">
+    <section class="content__skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5 & CSS3</li>
+        <li>Responsive Design</li>
+        <li>BEM Methodology</li>
+        <li>Version Control with Git & GitHub</li>
+        <li>JavaScript (in progress)</li>
+      </ul>
+    </section>
 
-  <section class="about">
-    <h2>About Me</h2>
-    <p>I'm a passionate front-end developer currently enrolled in the TripleTen Bootcamp. I build responsive websites with clean, maintainable code. I'm actively looking for freelance work and opportunities to grow as a developer.</p>
-  </section>
+    <section class="content__projects">
+      <h2>Projects</h2>
 
-  <section class="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML5 & CSS3</li>
-      <li>Responsive Design</li>
-      <li>BEM Methodology</li>
-      <li>Version Control with Git & GitHub</li>
-      <li>JavaScript (in progress)</li>
-    </ul>
-  </section>
+      <div class="content__project-card">
+        <h3 class="content__project-title">Landing Page – Project Homeland</h3>
+        <p>
+          Responsive HTML/CSS page built with BEM structure and media queries.
+        </p>
+        <a
+          href="https://irvingdogdev.github.io/web_project_homeland/"
+          target="_blank"
+          class="content__project-link">View on GitHub</a
+        >
+      </div>
 
-  <section class="projects">
-    <h2>Projects</h2>
-
-    <div class="project-card">
-      <h3>Landing Page – Travel Agency</h3>
-      <p>Responsive HTML/CSS page built with BEM structure and media queries.</p>
-      <a href="https://github.com/your-username/travel-landing" target="_blank">View on GitHub</a>
+      <div class="content__project-card">
+        <h3 class="content__project-title">Email Newsletter Template</h3>
+        <p>
+          Pixel-perfect HTML email coded from PSD, designed for cross-client
+          compatibility.
+        </p>
+      </div>
+    </section>
     </div>
 
-    <div class="project-card">
-      <h3>Email Newsletter Template</h3>
-      <p>Pixel-perfect HTML email coded from PSD, designed for cross-client compatibility.</p>
+    <div class="contact">
+      <p>
+        Let's work together! Reach me on
+        <a href="https://www.upwork.com/freelancers/~01ba6738a1cea53ba6"
+          >Upwork</a
+        >
+        or email me at <strong>irving.soad@gmail.com</strong>.
+      </p>
     </div>
-
-  </section>
-
-  <div class="contact">
-    <p>Let's work together! Reach me on <a href="https://www.upwork.com/freelancers/~yourprofile">Upwork</a> or email me at <strong>youremail@email.com</strong>.</p>
+  </body>
   </div>
-
-</body>
 </html>
